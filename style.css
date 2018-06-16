@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+
+  box-sizing: border-box;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* this is a comment    */
+
+body {
+  font-family: arial, sans-serif;
+  background-color: orange;
+}
+
+header {
+  background-color: gray;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+/* typography */
+h1 {
+  font-size: 50px;
+  color: #ffffff; /* white */
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1,
+h2,
+p,
+li {
+  padding-bottom: 1em;
+}
+
+.item {
+  background-color: lightblue;
+  margin: 1%;
+  margin-bottom: 20px;
+  padding: 1%;
+
+  border-radius: 15px;
+}
+
+main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item li {
+  margin-left: 25px;
+}
+
+blockquote p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media print {
+
+}
+
+@media screen and (min-width: 500px) {
+
+  body {
+    background-color: red;
+    font-family: courier;
+  }
+
+  .item {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    background-color: black;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h2 {
+    font-family: 'Cookie', cursive;
+  }
+
+  .item {
+    width: 31.3%;
+    background-color: rgba(255, 0, 0, 0.7);
+    float: left;
+  }
+
+  footer {
+    color: yellow;
+    clear: both;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
