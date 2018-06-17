@@ -22,6 +22,7 @@ body {
 
 header {
   background-color: gray;
+  margin-bottom: 20px;
 }
 
 header,
@@ -50,7 +51,7 @@ li {
   background-color: lightblue;
   margin: 1%;
   margin-bottom: 20px;
-  padding: 1%;
+  padding: 2%;
 
   border-radius: 15px;
 }
@@ -115,10 +116,25 @@ nav a:hover {
     font-family: 'Cookie', cursive;
   }
 
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* 
+    play around with other values in dev tools
+    grid-template-columns: 200px 100px 50%;
+    */
+    grid-gap: 20px;
+   
+    justify-content: space-between;
+
+    
+  }
+
   .item {
-    width: 31.3%;
+    /* width: 31.3%; */
     background-color: rgba(255, 0, 0, 0.7);
-    float: left;
+    /* float: left; */
   }
 
   footer {
